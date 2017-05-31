@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-# hris_hiring
-=======
-# hrishiring2
->>>>>>> origin/master
+This version is intended for public release
