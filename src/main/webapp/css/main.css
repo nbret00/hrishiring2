@@ -1,0 +1,77 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body *
+{
+   font-family: Arial !important;
+   font-size: .97em !important;
+}
+
+
+label {
+    color: grey
+}
+
+.selected-row > td {
+    background:#c4e2ff;
+    border-color:#c4e2ff;
+    text-decoration: underline;
+}
+
+.sample:focus {
+    width: 500px;
+}
+
+.loader-sm {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-bottom: 8px solid #3498db;    
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+
+.overlay_center {
+    margin: auto;
+    position: absolute;
+    top: 50px; left: 50px;
+    bottom: 50px; right: 50px;
+    color: #FFF;
+    z-index:5;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.disableddiv {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.pad5 {
+    padding: 5px;
+}
+
+.small-font {
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
